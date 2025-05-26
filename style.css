@@ -1,0 +1,54 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: black;
+  margin: 0;
+  padding: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+h1 {
+  text-align: center;
+}
+
+.controls {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007acc;
+  color: white;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 200px;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+
+.style1 .card {
+  background-color: #f0f0f0;
+
+}
